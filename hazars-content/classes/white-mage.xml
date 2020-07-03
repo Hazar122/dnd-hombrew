@@ -8,17 +8,6 @@
 			<file name="WhiteMage.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/classes/white-mage.xml" />
 		</update>
 	</info>
-	<element name="Hazar's Content" type="Source" source="Core" id="ID_HC">
-		<setters>
-			<set name="abbreviation">HC</set>
-			<set name="url"></set>
-			<set name="author" abbreviation="HAZAR" url="https://github.com/Hazar122">Hazar</set>
-			<set name="official">false</set>
-			<set name="playtest">false</set>
-		</setters>
-	</element>	
-	
-	
 	
 	<element name="White Mage" type="Class" source="Hazars Content" id="ID_HC_CLASS_WHITEMAGE">
 		<description>

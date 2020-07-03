@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/source.xml" />
+		</update>
+	</info>
+	<element name="Hazars Content" type="Source" source="Core" id="HC">
+		<description>
+		</description>
+		<setters>
+			<set name="abbreviation">HC</set>
+			<set name="url"></set>
+			<set name="image"></set>
+			<set name="author" abbreviation="H" url="https://github.com/Hazar122/dnd-hombrew/">Hazar</set>
+			<set name="third-party">true</set>
+			<set name="release"></set>
+		</setters>
+	</element>
+</elements>
