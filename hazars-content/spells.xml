@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
 		<update version="0.0.1">
-			<file name="spells.xml" url="https://raw.githubusercontent.com/master/hazars-content/spells.xml" />
+			<file name="spells.xml" url="https://raw.githubusercontent.com/Hazar122/master/hazars-content/spells.xml" />
 		</update>
 	</info>	
 	
