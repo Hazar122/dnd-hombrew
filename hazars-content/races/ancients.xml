@@ -8,6 +8,15 @@
 			<file name="ancients.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/races/ancients.xml" />
 		</update>
 	</info>
+	<element name="Hazar's Content" type="Source" source="Core" id="ID_HC">
+		<setters>
+			<set name="abbreviation">HC</set>
+			<set name="url"></set>
+			<set name="author" abbreviation="HAZAR" url="https://github.com/Hazar122">Hazar</set>
+			<set name="official">false</set>
+			<set name="playtest">false</set>
+		</setters>
+	</element>	
 	<element name="Ancient" type="Race" source="Hazars Content" id="ID_HC_RACE_ANCIENT">
 		<description>
 			<p class="flavor">The Ancients were the first race to appear on the planet; never settling and always on the move, to find their promised land, a land of extreme happiness. When a calamity from the skies fell to the planet, humans and other races went into hiding, but the Ancients fought against it; greatly reducing their number in the process. </p>
