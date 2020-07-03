@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Hazars Content</name>
+		<update version="0.0.1">
+			<file name="hazar.index" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazar.index" />
+		</update>
+	</info>
+	<files>
+		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/companions.xml" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/languages.xml" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/spells.xml" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/races/ancient.xml" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/classes/white-mage.xml" />
+	</files>
+</index>

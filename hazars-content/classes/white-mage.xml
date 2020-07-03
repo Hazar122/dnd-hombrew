@@ -3,9 +3,9 @@
 	<info>
 		<name>Hazar's Content :D</name>
 		<description></description>
-		<author url="">Hazar</author>
+		<author url="https://github.com/Hazar122">Hazar</author>
 		<update version="0.0.1">
-			<file name="WhiteMage.xml" url="" />
+			<file name="WhiteMage.xml" url="https://raw.githubusercontent.com/master/hazars-content/classes/white-mage.xml" />
 		</update>
 	</info>
 	

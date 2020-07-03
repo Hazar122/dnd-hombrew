@@ -3,9 +3,9 @@
 	<info>
 		<name>Hazar's Content :D</name>
 		<description></description>
-		<author url="">Hazar</author>
+		<author url="https://github.com/Hazar122/dnd-hombrew/">Hazar</author>
 		<update version="0.0.1">
-			<file name="languages.xml" url="" />
+			<file name="languages.xml" url="https://raw.githubusercontent.com/master/hazars-content/languages.xml" />
 		</update>
 	</info>
 	
