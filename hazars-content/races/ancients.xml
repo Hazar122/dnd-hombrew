@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
 		<update version="0.0.1">
-			<file name="Ancient.xml" url="https://raw.githubusercontent.com/master/hazars-content/races/ancient.xml" />
+			<file name="ancients.xml" url="https://raw.githubusercontent.com/master/hazars-content/races/ancients.xml" />
 		</update>
 	</info>
 	<element name="Ancient" type="Race" source="Hazars Content" id="ID_HC_RACE_ANCIENT">
@@ -33,7 +33,7 @@
 				<span class="feature">Planetary Whisper:</span>The Ancients have a unique ability to communicate with the planet; seeking its wisdom and advice when trouble is amassing. The Ancients can make a Perception check to talk to the planet (DC 20) and find out future information. The information can be cryptic or clear, understandable or ambiguous (left at the GMs discretion). If the check fails, nothing happens. On a successful check, the Ancient communes with the planet and receives information normally unavailable to them (depending on how noisy the area is when the Ancient makes the Perception check, the GM can install a penalty to the check to account for the Ancient not being able to hear properly). The Ancient can use this ability a number of times per day equal to their current Charisma modifier.<br />
 				<span class="feature">Lifeforce Attuned:</span>Ancients gain 2 cantrips from the White Mage spell list.<br />
 			</p>
-			
+		
 		</description>
 		<sheet display="false" />
 		<setters>
