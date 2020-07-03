@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
 		<update version="0.0.1">
-			<file name="companions.xml" url="https://raw.githubusercontent.com/dnd-hombrew/master/hazars-content/companions.xml" />
+			<file name="companions.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/companions.xml" />
 		</update>
 	</info>
 	
