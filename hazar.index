@@ -9,8 +9,8 @@
 	<files>
 		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/companions.xml" />
 		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/languages.xml" />
-		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/spells.xml" />
-		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/races/ancients.xml" />
-		<file name="companions.xml" url="https://raw.githubusercontent.com/master/hazars-content/classes/white-mage.xml" />
+		<file name="languages.xml" url="https://raw.githubusercontent.com/master/hazars-content/spells.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/master/hazars-content/races/ancients.xml" />
+		<file name="white-mage.xml" url="https://raw.githubusercontent.com/master/hazars-content/classes/white-mage.xml" />
 	</files>
 </index>
