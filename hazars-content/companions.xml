@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hazar's Content :D</name>
+		<description></description>
+		<author url="">Hazar</author>
+		<update version="0.0.1">
+			<file name="companions.xml" url="" />
+		</update>
+	</info>
+	
+	<element name="Quacken" type="Companion" source="Hazars Content" id="ID_HC_COMPANION_QUACKEN">
+		<supports>Familiar, Variant Familiar</supports>
+		<description>
+			<p>The Quacken, a duck who was once tested on by a mad scientist, the infusion of octopus genes into the duck lead to it growing tenticals! </p>
+        </description>
+		<setters>
+			<set name="strength">17</set>
+			<set name="dexterity">10</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">5</set>
+			<set name="wisdom">11</set>
+			<set name="charisma">13</set>
+			<set name="ac">13</set>
+			<set name="hp">10</set>
+			<set name="speed">20 ft., Swim 40 ft.</set>
+			<set name="languages">Duck, Common</set>
+			<set name="skills">Intimidation +5, Perception +5</set>
+			<set name="type">Aberration</set>
+			<set name="hd">(3d4+3)</set>
+			<set name="size">Small</set>
+			<set name="alignment">Chaotic evil</set>
+			<set name="challenge">1</set>
+			<set name="traits"></set>
+			<set name="actions">ID_HC_COMPANION_ACTION_QUACKEN_MULTIATTACK,ID_HC_COMPANION_ACTION_QUACKEN_DUCKTENTACLE,ID_HC_COMPANION_ACTION_QUACKEN_INFEST</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="18" />
+			<stat name="companion:hp:max" value="10" bonus="base" />
+			<stat name="companion:speed" value="20" bonus="base" />
+			<stat name="companion:speed:swim" value="40" bonus="base" />
+			<stat name="companion:intimidation:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Multiattack" type="Companion Action" source="Hazars Content" id="ID_HC_COMPANION_ACTION_QUACKEN_MULTIATTACK">
+		<description>
+			<p>The duck can make 4 attacks (1 of wich can be an infect attack)</p>
+		</description>
+		<sheet>
+			<description>The duck can make 4 attacks (1 of wich can be an infect attack)</description>
+		</sheet>
+	</element>
+	<element name="Duck Tentacle" type="Companion Action" source="Hazars Content" id="ID_HC_COMPANION_ACTION_QUACKEN_DUCKTENTACLE">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. (1d4 + 3) bludgeoning damage, and the target must make a DC 5 strength saving throw or get knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. (1d4 + 3) bludgeoning damage, and the target must make a DC 5 strength saving throw or get knocked prone.</description>
+		</sheet>
+	</element>
+	<element name="Infest" type="Companion Action" source="Hazars Content" id="ID_HC_COMPANION_ACTION_QUACKEN_INFEST">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. (1d4 + 3) piercing damage, and the target must make a DC 5 Constitution saving throw or become poisoned. while poisoned in this way they are considered infested</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. (1d4 + 3) piercing damage, and the target must make a DC 5 Constitution saving throw or become poisoned. while poisoned in this way they are considered infested</description>
+		</sheet>
+	</element>
+	<element name="Soul-wrenching Quack" type="Companion Action" source="Hazars Content" id="ID_HC_COMPANION_ACTION_QUACKEN_SWQUACK">
+		<description>
+			<p>Pick 1 Creature within 10ft, the creature must make a DC15 Wisdom saving throw or become paralyzed until the end of the creatures next turn</p>
+		</description>
+		<sheet>
+			<description>Pick 1 Creature within 10ft, the creature must make a DC15 Wisdom saving throw or become paralyzed until the end of the creatures next turn</description>
+		</sheet>
+	</element>
+	
+	
+</elements>

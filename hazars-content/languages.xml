@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hazar's Content :D</name>
+		<description></description>
+		<author url="">Hazar</author>
+		<update version="0.0.1">
+			<file name="languages.xml" url="" />
+		</update>
+	</info>
+	
+	<element name="Ancient" type="Language" source="Hazars Content" id="ID_LANGUAGE_ANCIENT">
+		<supports>Standard</supports>
+		<description>
+			<p>Only spoken by the Ancients.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Ancient</set>
+			<set name="script">Ancient</set>
+		</setters>
+	</element>
+</elements>

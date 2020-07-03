@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hazar's Content :D</name>
+		<description></description>
+		<author url="">Hazar</author>
+		<update version="0.0.1">
+			<file name="spells.xml" url="" />
+		</update>
+	</info>	
+	
+	
+	<element name="Barrier" type="Spell" source="Hazars Content" id="ID_HC_SPELL_BARRIER">
+		<supports>White Mage, Ancient</supports>
+		<description>
+			<p>A creature you touch takes half damage from all bludgeoning damage for 1d4 turns</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+		    <set name="school">Evocation</set>
+		    <set name="time">1 action</set>
+		    <set name="duration">Instant</set>
+		    <set name="range">Touch</set>
+	    	<set name="hasVerbalComponent">true</set>
+		    <set name="hasSomaticComponent">false</set>
+		    <set name="hasMaterialComponent">false</set>
+		    <set name="materialComponent"></set>
+		    <set name="isConcentration">false</set>
+		    <set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Drain" type="Spell" source="Hazars Content" id="ID_HC_SPELL_DRAIN">
+		<supports>White Mage</supports>
+		<description>
+			<p>You deal 2d8 points of necrotic damage to a single target within line of sight and within 30 feet of you</p>
+			<p>you then regain hp equal to the amount of damage you dealth!</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+		    <set name="school">Evocation</set>
+		    <set name="time">1 action</set>
+		    <set name="duration">Instant</set>
+		    <set name="range">30 ft</set>
+	    	<set name="hasVerbalComponent">true</set>
+		    <set name="hasSomaticComponent">true</set>
+		    <set name="hasMaterialComponent">false</set>
+		    <set name="materialComponent"></set>
+		    <set name="isConcentration">false</set>
+		    <set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Lifestream Focus" type="Spell" source="Hazars Content" id="ID_HC_SPELL_LIFESTREAMFOCUS">
+		<supports>White Mage, Ancient</supports>
+		<description>
+			<p>If an ally is making death saving throws you can cast this spell, the ally must make a DC wisdom save of 10 or above to be able to come back alive with 1 hp</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+		    <set name="school">Evocation</set>
+		    <set name="time">1 action</set>
+		    <set name="duration">Instant</set>
+		    <set name="range">Touch</set>
+	    	<set name="hasVerbalComponent">false</set>
+		    <set name="hasSomaticComponent">true</set>
+		    <set name="hasMaterialComponent">false</set>
+		    <set name="materialComponent"></set>
+		    <set name="isConcentration">false</set>
+		    <set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>

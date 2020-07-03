@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hazar's Content :D</name>
+		<description></description>
+		<author url="">Hazar</author>
+		<update version="0.0.1">
+			<file name="Ancient.xml" url="" />
+		</update>
+	</info>
+	<element name="Ancient" type="Race" source="Hazars Content" id="ID_HC_RACE_ANCIENT">
+		<description>
+			<p class="flavor">The Ancients were the first race to appear on the planet; never settling and always on the move, to find their promised land, a land of extreme happiness. When a calamity from the skies fell to the planet, humans and other races went into hiding, but the Ancients fought against it; greatly reducing their number in the process. </p>
+			<p>Ancients look and talk like any other Human. It is because of this that they can easily disguise their identities and blend in with the world at large.</p>
+			<p>Ancients are generally more calmer and understandable about things, however they do not rely on attacking others to dispute problems, choosing instead the path of negotiating.</p>
+
+			<h4>UNFORTUNATE EVENTS</h4>
+			<p>he Ancients are being hunted by most of the other races due to there ablities, because of this the Ancients have to make themselves scarce so people do not know they are an ancient, generally deciding not to use there powers if they know they have them, these unique abilities can only be passed down through blood lines so being able to find one is worth allot of money for research or power if used in the wrong way </p>
+      
+			<h4>ANCIENTS TRAITS</h4>
+			<p>Ancients have the following race traits:</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span> Your wisdom and constitution increase by 2.<br />
+				<span class="feature">Age.</span>Ancients live to the same age as humans, reaching adulthood in there late teens, and usually living no longer then a century!<br />
+				<span class="feature">Alignment.</span> Ancients tend to be lawful good or good, tending to fight all there battles via negotiation!<br />
+				<span class="feature">Size.</span>Ancients can range from 5 feet to 6 feet but generally sitting in the higher end of 5 feet, and have the size of medium!<br />
+				<span class="feature">Speed.</span>You have a base walk speed of 30ft.<br />
+				<span class="feature">Languages.</span>You can speak, read and write Common, Ancient and one other language of you choice!<br />
+			</p>
+			<h4>PLANETARY CONNECTION</h4>
+			<p>Due to the Ancients connection to the planet the ancients gain the following additional traits:</p>
+			<p>
+				<span class="feature">Planetary Whisper:</span>The Ancients have a unique ability to communicate with the planet; seeking its wisdom and advice when trouble is amassing. The Ancients can make a Perception check to talk to the planet (DC 20) and find out future information. The information can be cryptic or clear, understandable or ambiguous (left at the GMs discretion). If the check fails, nothing happens. On a successful check, the Ancient communes with the planet and receives information normally unavailable to them (depending on how noisy the area is when the Ancient makes the Perception check, the GM can install a penalty to the check to account for the Ancient not being able to hear properly). The Ancient can use this ability a number of times per day equal to their current Charisma modifier.<br />
+				<span class="feature">Lifeforce Attuned:</span>Ancients gain 2 cantrips from the White Mage spell list.<br />
+			</p>
+			
+		</description>
+		<sheet display="false" />
+		<setters>
+		    <set name="names" type="male">Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth</set>
+		    <set name="names" type="female">Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra</set>
+		    <set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver</set>
+		    <set name="names-format">{{name}} {{surname}}</set>
+		    <set name="height" modifier="2d10">4'8"</set>
+		    <set name="weight" modifier="2d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="wisdom" value="2" />
+			<grant type="Size" id="ID_SIZE_MEDIUM"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>	  
+			<grant type="Language" id="ID_LANGUAGE_ANCIENT"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_PLANETARY_WHISPER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIFEFORCE_ATTUNED" />
+			<grant type="Racial Trait" id="ID_HC_RACIAL_TRAIT_ANCIENT_SPELLCASTING_ANCIENT" />
+			<select type="Spell" name="Cantrip (Lifeforce Attuned)" supports="0,Ancient" number="2" spellcasting="Ancient" />
+		</rules>
+	</element>
+	<element name="Spellcasting" type="Racial Trait" source="Hazars Content" id="ID_HC_RACIAL_TRAIT_ANCIENT_SPELLCASTING_ANCIENT">
+		<description>
+		</description>
+		<sheet display="false">
+			<description>You have the ability to cast spells.</description>
+		</sheet>
+		<spellcasting name="Ancient" ability="Charisma" allowReplace="true">
+			<list known="true">Ancient</list>
+		</spellcasting>
+		<rules>
+
+		</rules>
+	</element>
+	<element name="Planetary Whisper" type="Racial Trait" source="Hazars Content" id="ID_RACIAL_TRAIT_PLANETARY_WHISPER">
+		<description>
+			<p>The Ancients have a unique ability to communicate with the planet; seeking its wisdom and advice when trouble is amassing. The Ancients can make a Perception check to talk to the planet (DC 20) and find out future information. The information can be cryptic or clear, understandable or ambiguous (left at the GMs discretion). If the check fails, nothing happens. On a successful check, the Ancient communes with the planet and receives information normally unavailable to them (depending on how noisy the area is when the Ancient makes the Perception check, the GM can install a penalty to the check to account for the Ancient not being able to hear properly). The Ancient can use this ability a number of times per day equal to their current Charisma modifier.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can make a Perception check to talk to the planet (DC 20) and find out future information. The information can be cryptic or clear, understandable or ambiguous (left at the GMs discretion). If the check fails, nothing happens. On a successful check, the Ancient communes with the planet and receives information normally unavailable to them (depending on how noisy the area is when you make the Perception check, the GM can install a penalty to the check to account for the Ancient not being able to hear properly).  You can use this ability {{PWAmount:dc}} times per day.</description>
+		</sheet>
+		<rules>
+			<stat name="PWAmount:dc" value="constitution:modifier" />
+		</rules>
+	</element>
+	<element name="Lifeforce Attuned" type="Racial Trait" source="Hazars Content" id="ID_RACIAL_TRAIT_LIFEFORCE_ATTUNED">
+		<description>
+			<p>Ancients gain 2 cantrips from the White Mage spell list.</p>
+		</description>
+		<sheet action="Action">
+			<description> Ancients gain 2 cantrips from the White Mage spell list.</description>
+		</sheet>
+	</element>
+	
+</elements>

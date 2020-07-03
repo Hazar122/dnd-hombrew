@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Hazar's Content :D</name>
+		<description></description>
+		<author url="">Hazar</author>
+		<update version="0.0.1">
+			<file name="WhiteMage.xml" url="" />
+		</update>
+	</info>
+	
+	
+	
+	
+	<element name="White Mage" type="Class" source="Hazars Content" id="ID_HC_CLASS_WHITEMAGE">
+		<description>
+			<p>As a White Mage, you gain the following class features.</p>
+			<h5 class="caption">HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per white mage level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per white mage level after 1st </li>
+			</ul>
+			<h5 class="caption">PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light armor, medium armor, shield</li>
+				<li><strong>Weapons:</strong> Simple weapons</li>
+				<li><strong>Tools:</strong> None</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Wisdom, Charisma</li>
+				<li><strong>Skills:</strong> Choose two from History, Insight, Medicine, Persuasion, and Religion</li>
+			</ul>
+			<h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> a mace or <i>(b)</i> a warhammer (if proficient) </li>
+				<li><i>(a)</i> scale mail, <i>(b)</i> leather armor, or <i>(c)</i> chain mail (if proficient) </li>
+				<li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> any simple weapon </li>
+				<li><i>(a)</i> a priest’s pack or <i>(b)</i> an explorer’s pack </li>
+				<li>A shield and a holy symbol</li>
+			</ul>
+			<h5 class="caption">THE WHITE MAGE</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Spellcasting,</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">—</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">—</td><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+				<tr><td>20th</td><td class="left">—</td><td>5</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+			</table>
+			<div element="ID_HC_CLASS_FEATURE_WHITEMAGE_SPELLCASTING_WHITEMAGE" />
+		</description>
+		<sheet display="false">
+			<description>A mage focused around healing and supporting your team.</description>
+		</sheet>
+		<setters>
+			<set name="short">A mage focused around healing and supporting your team.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+
+			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_WHITEMAGE_SPELLCASTING_WHITEMAGE" level="1" />
+		</rules>
+	</element>
+
+	<element name="Spellcasting" type="Class Feature" source="Hazars Content" id="ID_HC_CLASS_FEATURE_WHITEMAGE_SPELLCASTING_WHITEMAGE">
+		<description>
+			<p>A mage focused around healing and supporting your team.</p>
+			<h5 class="caption">CANTRIPS</h5>
+			<p>At 1st level, you know three cantrips of your choice from the White Mage spell list. You learn additional White Mage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the White Mage table.</p>
+			<h5 class="caption">PREPARING AND CASTING SPELLS</h5>
+			<p>The White Mage table shows how many spell slots you have to cast your White Mage spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">You prepare the list of White Mage spells that are available for you to cast, choosing from the White Mage spell list. When you do so, choose a number of White Mage spells equal to your Wisdom modifier + your White Mage level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you are a 3rd-level White Mage, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of White Mage spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+			<h5 class="caption">SPELLCASTING ABILITY</h5>
+			<p>Wisdom is your spellcasting ability for your White Mage spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a White Mage spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a White Mage spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+			<h5 class="caption">SPELLCASTING FOCUS</h5>
+			<p>You can use a holy symbol as a spellcasting focus for your White Mage spells.</p>
+		</description>
+		<spellcasting name="White Mage" ability="Wisdom" prepare="true">
+			<list known="true">White Mage</list>
+		</spellcasting>
+		<rules>
+
+
+			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_WHITEMAGE_ASI" level="4" />
+			<stat name="White Mage:spellcasting:slots:1" value="2" level="1" />
+			<stat name="White Mage:spellcasting:slots:1" value="1" level="2" />
+			<stat name="White Mage:spellcasting:slots:1" value="1" level="3" />
+			<stat name="White Mage:spellcasting:slots:2" value="2" level="3" />
+			<stat name="White Mage:spellcasting:slots:2" value="1" level="4" />
+			<stat name="White Mage:spellcasting:slots:3" value="2" level="5" />
+			<stat name="White Mage:spellcasting:slots:3" value="1" level="6" />
+			<stat name="White Mage:spellcasting:slots:4" value="1" level="7" />
+			<stat name="White Mage:spellcasting:slots:4" value="1" level="8" />
+			<stat name="White Mage:spellcasting:slots:4" value="1" level="9" />
+			<stat name="White Mage:spellcasting:slots:5" value="1" level="9" />
+			<stat name="White Mage:spellcasting:slots:5" value="1" level="10" />
+			<stat name="White Mage:spellcasting:slots:5" value="1" level="18" />
+			<stat name="White Mage:spellcasting:slots:6" value="1" level="11" />
+			<stat name="White Mage:spellcasting:slots:6" value="1" level="19" />
+			<stat name="White Mage:spellcasting:slots:7" value="1" level="13" />
+			<stat name="White Mage:spellcasting:slots:7" value="1" level="20" />
+			<stat name="White Mage:spellcasting:slots:8" value="1" level="15" />
+			<stat name="White Mage:spellcasting:slots:9" value="1" level="17" />
+
+			<stat name="White Mage:spellcasting:prepare" value="wisdom:modifier" />
+			<stat name="White Mage:spellcasting:prepare" value="level:White Mage" />
+
+			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="White Mage" />
+			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Cantrip (White Mage)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Level 1 (White Mage)" supports="$(spellcasting:list), 1" level="1" number="2" spellcasting="White Mage" />
+			<select type="Spell" name="Level 1 (White Mage)" supports="$(spellcasting:list), 1" level="2" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Level 1 (White Mage)" supports="$(spellcasting:list), 1" level="3" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Level 2 (White Mage)" supports="$(spellcasting:list), 2" level="3" number="2" spellcasting="White Mage" />
+			<select type="Spell" name="Level 2 (White Mage)" supports="$(spellcasting:list), 2" level="4" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Level 3 (White Mage)" supports="$(spellcasting:list), 3" level="5" number="2" spellcasting="White Mage" />
+			<select type="Spell" name="Level 3 (White Mage)" supports="$(spellcasting:list), 3" level="6" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Level 4 (White Mage)" supports="$(spellcasting:list), 4" level="7" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Level 4 (White Mage)" supports="$(spellcasting:list), 4" level="8" number="1" spellcasting="White Mage" />
+			<select type="Spell" name="Level 4 (White Mage)" supports="$(spellcasting:list), 4" level="9" number="1" spellcasting="White Mage" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Hazars Content" id="ID_HC_CLASS_FEATURE_WHITEMAGE_ASI">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (White Mage 4)" supports="Improvement Option,White Mage,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (White Mage 8)" supports="Improvement Option,White Mage,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (White Mage 12)" supports="Improvement Option,White Mage,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (White Mage 16)" supports="Improvement Option,White Mage,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (White Mage 19)" supports="Improvement Option,White Mage,19" level="19" />
+		</rules>
+	</element>
+	
+</elements>
