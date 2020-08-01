@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Gear</name>
+		<description></description>
+		<author url="">Hazar</author>
+		<update version="0.1.0">
+			<file name="hazar-item-gear.xml" url="" />
+		</update>
+	</info>
+	
+	<element name="Book Of History" type="Item" source="Hazars Test Content" id="ID_HC_ITEM_BOOKOFHISTORY">
+		<description>
+			<p>A book on history</p>
+		</description>
+		<setters>
+			<set name="category">Books</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Book Of Shadows" type="Item" source="Hazars Test Content" id="ID_HC_ITEM_BOOKOFSHADOWS">
+		<description>
+			<p>Grimoire Called The book Of Shadows</p>
+		</description>
+		<setters>
+			<set name="category">Books</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+	<element name="Book Of Shadows (ancient Secrets)" type="Item" source="Hazars Test Content" id="ID_HC_ITEM_BOOKOFSECRETS">
+		<description>
+			<p>Grimoire Called The book Of Shadows (Ancient Secrets Upgrade)</p>
+		</description>
+		<setters>
+			<set name="category">Books</set>
+			<set name="weight" lb="5">5 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>	
+</elements>	
