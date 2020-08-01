@@ -4,7 +4,7 @@
 		<name>Hazar's Content</name>
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		</update>
 	</info>
