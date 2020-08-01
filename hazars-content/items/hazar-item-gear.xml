@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	
-	<element name="Book Of History" type="Item" source="Hazars Test Content" id="ID_HC_ITEM_BOOKOFHISTORY">
+	<element name="Book Of History" type="Item" source="Hazars Content" id="ID_HC_ITEM_BOOKOFHISTORY">
 		<description>
 			<p>A book on history</p>
 		</description>
@@ -20,7 +20,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Book Of Shadows" type="Item" source="Hazars Test Content" id="ID_HC_ITEM_BOOKOFSHADOWS">
+	<element name="Book Of Shadows" type="Item" source="Hazars Content" id="ID_HC_ITEM_BOOKOFSHADOWS">
 		<description>
 			<p>Grimoire Called The book Of Shadows</p>
 		</description>
@@ -30,7 +30,7 @@
 			<set name="stackable">false</set>
 		</setters>
 	</element>
-	<element name="Book Of Shadows (ancient Secrets)" type="Item" source="Hazars Test Content" id="ID_HC_ITEM_BOOKOFSECRETS">
+	<element name="Book Of Shadows (ancient Secrets)" type="Item" source="Hazars Content" id="ID_HC_ITEM_BOOKOFSECRETS">
 		<description>
 			<p>Grimoire Called The book Of Shadows (Ancient Secrets Upgrade)</p>
 		</description>
