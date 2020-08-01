@@ -4,12 +4,78 @@
 		<name>Hazar's Content</name>
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		</update>
 	</info>
 	<element name="Pirate" type="Class" source="Hazars Content" id="ID_HC_CLASS_PIRATE">
 		<description>
+			<p> You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. Now, you've become a feared pirate in your own right. You have indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Bloodshed and the pursuit of treasure are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town. </p>
+			<p>As a Pirate, you gain the following class features.</p>
+			<h5 class="caption">HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per Pirate level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Pirate level after 1st </li>
+			</ul>
+			<h5 class="caption">PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light armor, shields</li>
+				<li><strong>Weapons:</strong> Simple weapons, crossbows, flintlock pistols, rapiers, shortswords</li>
+				<li><strong>Tools:</strong> Navigator's tools</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Dexterity, Charisma</li>
+				<li><strong>Skills:</strong>  Choose three from Acrobatics, Deception, Intimidate, Insight, Perception, Performance, Stealth, Survival</li>
+			</ul>
+			<h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> a rapier or <i>(b)</i> a shortsword or <i>(c)</i> a cutlass</li>
+				<li><i>(a)</i> a light crossbow and 20 bolts or<i>(b)</i>  a flintlock pisol </li>
+				<li><i>(a)</i> a dungeoneer's pack or <i>(b)</i> an explorer's pack </li>
+				<li>Pirate Clothes </li>
+				<li>A dagger</li>
+				<li> Navigator's tools </li>
+			</ul>
+			<h5 class="caption">THE PIRATE</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-10">Proficency Bonus</td><td class="col-30"> Due;ing Bonus</td><td class="col-60 left">Features</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>+2</td><td> 1d6</td><td>Dueling Ace, Fnecing Adept</td></tr>
+				<tr><td> 2nd</td><td>+2</td>  </tr>
+				<tr><td> 3rd</td><td>+2</td>  </tr>
+				<tr><td> 4th</td><td>+2</td>  </tr>
+				<tr><td> 5th</td><td>+3</td>  </tr>
+				<tr><td> 6th</td><td>+3</td>  </tr>
+				<tr><td> 7th</td><td>+3</td>  </tr>
+				<tr><td> 8th</td><td>+3</td>  </tr>
+				<tr><td> 9th</td><td>+4</td>  </tr>
+				<tr><td>10th</td><td>+4</td>  </tr>
+				<tr><td>11th</td><td>+4</td>  </tr>
+				<tr><td>12th</td><td>+4</td>  </tr>
+				<tr><td>13th</td><td>+5</td>  </tr>
+				<tr><td>14th</td><td>+5</td>  </tr>
+				<tr><td>15th</td><td>+5</td>  </tr>
+				<tr><td>16th</td><td>+5</td>  </tr>
+				<tr><td>17th</td><td>+6</td>  </tr>
+				<tr><td>18th</td><td>+6</td>  </tr>
+				<tr><td>19th</td><td>+6</td>  </tr>
+				<tr><td>20th</td><td>+6</td>  </tr>
+			</table>
 		</description>
+				<sheet display="false">
+			<description></description>
+		</sheet>
+		<setters>
+			<set name="short"></set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+
+			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_WHITEMAGE_SPELLCASTING_WHITEMAGE" level="1" />
+		</rules>
+	</element>
 	</element>
 </elements>
