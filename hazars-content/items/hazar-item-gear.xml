@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="">Hazar</author>
 		<update version="0.1.0">
-			<file name="hazar-item-gear.xml" url="" />
+			<file name="hazar-item-gear.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-gear.xml" />
 		</update>
 	</info>
 	
