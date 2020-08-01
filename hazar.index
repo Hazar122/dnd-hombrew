@@ -3,15 +3,16 @@
 	<info>
 		<name>Hazars Content</name>
 		<update version="0.0.1">
-			<file name="hazar.index" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazar.index" />
+			<file name="hazar.index" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazar.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/source.xml" />
-		<file name="companions.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/companions.xml" />
-		<file name="languages.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/languages.xml" />
-		<file name="spells.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/spells.xml" />
-		<file name="ancients.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/races/ancients.xml" />
-		<file name="white-mage.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/classes/white-mage.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/source.xml" />
+		<file name="companions.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/companions.xml" />
+		<file name="languages.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/languages.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/spells.xml" />
+		<file name="ancients.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/races/ancients.xml" />
+		<file name="white-mage.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/white-mage.xml" />
+		<file name="hazar-item-gear.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-gear.xml" />
 	</files>
 </index>

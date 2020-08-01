@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-hombrew/master/hazars-content/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/source.xml" />
 		</update>
 	</info>
 	<element name="Hazars Content" type="Source" source="Core" id="HC">
@@ -12,7 +12,7 @@
 			<set name="abbreviation">HC</set>
 			<set name="url"></set>
 			<set name="image"></set>
-			<set name="author" abbreviation="H" url="https://github.com/Hazar122/dnd-hombrew/">Hazar</set>
+			<set name="author" abbreviation="H" url="https://github.com/Hazar122/dnd-homebrew/">Hazar</set>
 			<set name="third-party">true</set>
 			<set name="release"></set>
 		</setters>
