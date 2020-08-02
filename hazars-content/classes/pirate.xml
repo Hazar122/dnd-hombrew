@@ -4,7 +4,7 @@
 		<name>Hazar's Content</name>
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		</update>
 	</info>
@@ -41,7 +41,7 @@
 			<h5 class="caption">THE PIRATE</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-10">Proficency Bonus</td><td class="col-30"> Due;ing Bonus</td><td class="col-60 left">Features</td></tr>
+					<tr><td class="col-5">Level</td><td class="col-10">Proficency Bonus</td><td class="col-30"> Dueling Bonus</td><td class="col-60 left">Features</td></tr>
 				</thead>
 				<tr><td> 1st</td><td>+2</td><td> 1d6</td><td>Dueling Ace, Fencing Adept</td></tr>
 				<tr><td> 2nd</td><td>+2</td><td> 1d6</td><td>Rigging Monkey, Slippery as an Eel</td></tr>
@@ -65,26 +65,26 @@
 				<tr><td>20th</td><td>+6</td><td>1d12</td><td>Reputation feature</td></tr>
 			</table>
 			<div element="ID_HC_CLASS_FEATURE_PIRATE_DUELING_ACE" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT_IMPROVMENT" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_RIGGING_MONKEY" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL_IMPROVMENT" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_STRUDY_SEA_LEGS" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_ABI" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_GARB" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_FOLLOW_FOE" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_GROG_MASTER" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_EAGLE_EYES" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_PARROT_BUDDY" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK_TWO" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_LEGENDARY_GREED" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_FENCING_MASTER" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_CERTAIN_DEATH" />
-			<div element="ID_HC_CLASS_FEATURE_PIRATE_BELAY_THAT" />
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT" />                    -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT_IMPROVMENT" />         -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_RIGGING_MONKEY" />                   -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL" />               -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL_IMPROVMENT" />    -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION" />                -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE" />        -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_STRUDY_SEA_LEGS" />                  -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_ABI" />                              -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_GARB" />                      -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK" />                     -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_FOLLOW_FOE" />                       -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_GROG_MASTER" />                      -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_EAGLE_EYES" />                       -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_PARROT_BUDDY" />                     -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK_TWO" />                 -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_LEGENDARY_GREED" />                  -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_FENCING_MASTER" />                   -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_CERTAIN_DEATH" />                    -->
+			<!--  <div element="ID_HC_CLASS_FEATURE_PIRATE_BELAY_THAT" />                       -->
 		</description>
 		<sheet display="false">
 			<description>A pirate of the seven seas</description>
@@ -107,34 +107,34 @@
 			<select type="Proficiency" name="Skill Proficiency (Pirate)" supports="Skill,Pirate" number="3"/>
 			
 			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_DUELING_ACE"                   level="1"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT"                 level="1"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_RIGGING_MONKEY"                level="2"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL"            level="2"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION"             level="3"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_STRUDY_SEA_LEGS"               level="3"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                  level="4"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_GARB"                   level="4"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK"                  level="5"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FOLLOW_FOE"                    level="6"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT_IMPROVMENT"      level="6"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION"             level="6"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_GROG_MASTER"                   level="7"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_EAGLE_EYES"                    level="7"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                  level="8"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PARROT_BUDDY"                  level="8"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="9"  />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL_IMPROVMENT" level="10" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK_TWO"              level="11" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                  level="12" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_LEGENDARY_GREED"               level="13" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="14" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_MASTER"                level="15" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_CERTAIN_DEATH"                 level="15" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_BELAY_THAT"                    level="17" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL_IMPROVMENT" level="17" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="18" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                  level="19" />
-			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="20" />
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT"                 level="1"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_RIGGING_MONKEY"                level="2"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL"            level="2"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION"             level="3"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_STRUDY_SEA_LEGS"               level="3"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                    level="4"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_GARB"                   level="4"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK"                  level="5"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FOLLOW_FOE"                    level="6"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT_IMPROVMENT"      level="6"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION"             level="6"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_GROG_MASTER"                   level="7"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_EAGLE_EYES"                    level="7"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                    level="8"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PARROT_BUDDY"                  level="8"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="9"  />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL_IMPROVMENT" level="10" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_EXTRA_ATTACK_TWO"              level="11" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                    level="12" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_LEGENDARY_GREED"               level="13" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="14" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_MASTER"                level="15" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_CERTAIN_DEATH"                 level="15" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_BELAY_THAT"                    level="17" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL_IMPROVMENT" level="17" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="18" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_ABI" 		                    level="19" />  -->
+			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION_FEATURE"     level="20" />  -->
 		</rules>                                                                                      
 	</element>
 	
@@ -143,6 +143,12 @@
 			<p>Beginning at 1st level, when you willingly try to attack a target on your turn, you may begin dueling with them as a bonus action.</p>
 			<p class="indent">All subsequent melee and ranged attacks, including targeted spell attacks, you make against a target you are dueling deal an extra 1d6 in damage. If a target you’re dueling takes any action except moving that does not target themselves or you, your targeted attacks against them get advantage on your next turn and you deal bonus damage equal to your proficiency bonus per hit. If you’re dueling and you attempt to attack another target, you immediately stop dueling the prior target. The dueling die changes as you gain Pirate levels, as shown in the Dueling Bonus column of the Pirate table. Dueling ends if you or the target are put into a dying state, rendered unconscious, or restrained.</p>
 		</description>
+		<sheet>
+			<description level="1">Your Dueling Ace die is 1d6</description>
+			<description level="7">Your Dueling Ace die is 1d8</description>
+			<description level="13">Your Dueling Ace die is 1d10</description>
+			<description level="19">Your Dueling Ace die is 1d12</description>
+		</sheet>
 	</element>
 
 </elements>
