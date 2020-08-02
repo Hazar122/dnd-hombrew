@@ -4,7 +4,7 @@
 		<name>Hazar's Content</name>
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		</update>
 	</info>
@@ -97,11 +97,11 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR"  />
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOWS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLINTLOCK_PISTOLS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIERS" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORDS" />
-			<select type="Proficiency" name="Tool Proficiency (Pirate)" supports="Navigator's tools" />
+			<!--  <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOWS" />          -->
+			<!--  <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLINTLOCK_PISTOLS" />  -->
+			<!--  <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIERS" />            -->
+			<!--  <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORDS" />        -->
+			<grant type="Proficiency" name="Tool Proficiency (Pirate)" supports="Navigator's tools" />   
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 			<select type="Proficiency" name="Skill Proficiency (Pirate)" supports="Skill,Pirate" number="3"/>
