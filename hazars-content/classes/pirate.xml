@@ -4,7 +4,7 @@
 		<name>Hazar's Content</name>
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		</update>
 	</info>
@@ -105,7 +105,7 @@
 			<select type="Proficiency" name="Skill Proficiency (Pirate)" supports="Skill,Pirate" number="3"/>
 			
 			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_DUELING_ACE"                   level="1"  />
-			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT"                 level="1"  />  -->
+			<grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_FENCING_ADEPT"                 level="1"  />
 			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_RIGGING_MONKEY"                level="2"  />  -->
 			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_SLIPPERY_AS_AN_EEL"            level="2"  />  -->
 			<!--  <grant type="Class Feature" id="ID_HC_CLASS_FEATURE_PIRATE_PIRATE_REPUTATION"             level="3"  />  -->
