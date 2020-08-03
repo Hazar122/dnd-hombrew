@@ -15,5 +15,6 @@
 		<file name="white-mage.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/white-mage.xml" />
 		<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		<file name="hazar-item-gear.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-gear.xml" />
+		<file name="hazar-item-weapons.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-weapons.xml" />
 	</files>
 </index>
