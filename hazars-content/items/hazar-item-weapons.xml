@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name></name>
         <update version="0.0.2">
             <file name="hazar-item-weapons.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-weapons.xml" />
         </update>

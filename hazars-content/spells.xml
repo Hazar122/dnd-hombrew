@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Hazar's Content :D</name>
-		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
 		<update version="0.0.1">
 			<file name="spells.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/spells.xml" />
