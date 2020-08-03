@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.1.4">
+        <update version="0.0.2">
             <file name="hazar-item-weapons.xml" url="" />
         </update>
     </info>
