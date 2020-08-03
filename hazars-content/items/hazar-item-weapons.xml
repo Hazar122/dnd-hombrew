@@ -2,13 +2,13 @@
 <elements>
     <info>
         <name></name>
-        <update version="0.0.1.2">
+        <update version="0.0.1.3">
             <file name="hazar-item-weapons.xml" url="" />
         </update>
     </info>
     
     <element name="Energy Dagger" type="Weapon" source="Hazars Content" id="ID_HC_WEAPON_ENERGYDAGGER">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<supports>ID_HC_WEAPON_CATEGORY_ENERGY, ID_HC_DAMAGE_TYPE_ENERGY, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 		<description>
 			<p></p>
 		</description>
@@ -18,8 +18,8 @@
 			<set name="weight" lb="1">1 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="range">20/60</set>
-			<set name="damage" type="piercing">2d10</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+			<set name="damage" type="energy">2d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ENERGYDAGGER</set>
 		</setters>
 	</element>
     
