@@ -4,7 +4,7 @@
 		<name>Hazar's Content</name>
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		</update>
 	</info>
@@ -101,7 +101,7 @@
 			<!--  <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLINTLOCK_PISTOLS" />  -->
 			<!--  <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIERS" />            -->
 			<!--  <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORDS" />        -->
-			<grant type="Proficiency" name="Tool Proficiency (Pirate)" supports="Navigator's tools" />   
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />  
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 			<select type="Proficiency" name="Skill Proficiency (Pirate)" supports="Skill,Pirate" number="3"/>
@@ -144,6 +144,7 @@
 			<p class="indent">All subsequent melee and ranged attacks, including targeted spell attacks, you make against a target you are dueling deal an extra 1d6 in damage. If a target you’re dueling takes any action except moving that does not target themselves or you, your targeted attacks against them get advantage on your next turn and you deal bonus damage equal to your proficiency bonus per hit. If you’re dueling and you attempt to attack another target, you immediately stop dueling the prior target. The dueling die changes as you gain Pirate levels, as shown in the Dueling Bonus column of the Pirate table. Dueling ends if you or the target are put into a dying state, rendered unconscious, or restrained.</p>
 		</description>
 		<sheet>
+			<description> When you willingly try to attack a target on your turn, you may begin dueling with them as a bonus action. All subsequent melee and ranged attacks, including targeted spell attacks, you make against a target you are dueling deal an extra damage. </description>
 			<description level="1">Your Dueling Ace die is 1d6</description>
 			<description level="7">Your Dueling Ace die is 1d8</description>
 			<description level="13">Your Dueling Ace die is 1d10</description>
