@@ -8,7 +8,7 @@
     </info>
     
     <element name="Energy Dagger" type="Weapon" source="Hazars Content" id="ID_HC_WEAPON_ENERGYDAGGER">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_ENERGY, ID_INTERNAL_DAMAGE_TYPE_ENERGY, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
 		<description>
 			<p></p>
 		</description>
@@ -18,10 +18,8 @@
 			<set name="weight" lb="1">1 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="range">20/60</set>
-			<set name="damage" type="energy">2d10</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ENERGYDAGGER</set>
+			<set name="damage" type="bludgeoning">2d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
 		</setters>
 	</element>
-    
-    
-</elements>
+</elements> 
