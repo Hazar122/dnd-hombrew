@@ -4,7 +4,7 @@
 		<name>Hazar's Content</name>
 		<description></description>
 		<author url="https://github.com/Hazar122">Hazar</author>
-		<update version="0.1.2">
+		<update version="0.1.3">
 			<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		</update>
 	</info>
@@ -155,10 +155,10 @@
 			<description level="1">while wielding a finesse weapon if you’re the target of a melee or melee-spell attack from a target that you are dueling, you may use your reaction to add a +2 bonus to AC</description>
 			<description level="6">while wielding a finesse weapon if you’re the target of a melee or melee-spell attack from a target that you are dueling, you may use your reaction to add a +4 bonus to AC</description>
 		</sheet>   
-		<setters>
+		<rules>
 			<stat name="ac:misc" value="2" level="1"/>
 			<stat name="ac:misc" value="4" level="6"/>
-		</setters>
+		</rules>
 	</element>                     
                                    
 
