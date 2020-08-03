@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Hazars Content</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="hazar.index" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazar.index" />
 		</update>
 	</info>
