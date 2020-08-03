@@ -152,12 +152,12 @@
 
 		</description>
 		<sheet>
-			<description level="1">while wielding a finesse weapon if you’re the target of a melee or melee-spell attack from a target that you are dueling, you may use your reaction to add a +2 bonus to AC</description>
-			<description level="6">while wielding a finesse weapon if you’re the target of a melee or melee-spell attack from a target that you are dueling, you may use your reaction to add a +4 bonus to AC</description>
+			<description level="1">while wielding a finesse weapon you get a +2 bonus to your base AC</description>
+			<description level="6">while wielding a finesse weapon you get a +4 bonus to your base AC</description>
 		</sheet>   
 		<rules>
 			<stat name="ac:misc" value="2" level="1"/>
-			<stat name="ac:misc" value="4" level="6"/>
+			<stat name="ac:misc" value="2" level="6"/>
 		</rules>
 	</element>                     
                                    
