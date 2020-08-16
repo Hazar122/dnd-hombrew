@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="hazar-item-weapons.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-weapons.xml" />
         </update>
     </info>
@@ -25,8 +25,7 @@
 	
 	<element name="Cutlass" type="Weapon" source="Hazars Content" id="ID_HC_WEAPON_CUTLASS">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_ONEHANDED</supports>
-		<description>This weapon is that used by Pirates </p>
-		</description>
+		<description>This weapon is that used by Pirates </description>
 		<setters>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">20</set>
