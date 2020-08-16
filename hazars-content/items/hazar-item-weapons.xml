@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="hazar-item-weapons.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-weapons.xml" />
         </update>
     </info>
@@ -21,4 +21,23 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
 		</setters>
 	</element>
+	
+	
+	<element name="Cutlass" type="Weapon" source="Hazars Content" id="ID_HC_WEAPON_CUTLASS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_ONEHANDED</supports>
+		<description>This weapon is that used by Pirates </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">2d4</set>
+			<set name="proficiency">ID_HC_PROFICIENCY_WEAPON_PROFICIENCY_CUTLASS</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Cutlass)" type="Proficiency" source="Hazars Content" id="ID_HC_PROFICIENCY_WEAPON_PROFICIENCY_CUTLASS">
+		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_ONEHANDED</supports>
+	</element>	
+	
 </elements> 
