@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<author url="">Hazar</author>
-		<update version="0.1.2">
+		<update version="0.1.3">
 			<file name="hazar-item-gear.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-gear.xml" />
 		</update>
 	</info>
@@ -53,6 +53,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
 	<element name="Cupcakes" type="Item" source="Hazars Content" id="ID_HC_ITEM_CUPCAKES">
 			<description>
 				<p>Cupcakes</p>
