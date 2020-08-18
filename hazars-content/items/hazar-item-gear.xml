@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<author url="">Hazar</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="hazar-item-gear.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-gear.xml" />
 		</update>
 	</info>
@@ -18,6 +18,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+	
 	<element name="Book Of Shadows" type="Item" source="Hazars Content" id="ID_HC_ITEM_BOOKOFSHADOWS">
 		<description>
 			<p>Grimoire Called The book Of Shadows</p>
@@ -28,6 +29,7 @@
 			<set name="stackable">false</set>
 		</setters>
 	</element>
+	
 	<element name="Book Of Shadows (ancient Secrets)" type="Item" source="Hazars Content" id="ID_HC_ITEM_BOOKOFSECRETS">
 		<description>
 			<p>Grimoire Called The book Of Shadows (Ancient Secrets Upgrade)</p>
@@ -38,6 +40,7 @@
 			<set name="stackable">false</set>
 		</setters>
 	</element>	
+	
 	
 	<element name="Cupcakes Of Many Flavours" type="Item" source="Hazars Content" id="ID_HC_ITEM_CUPCAKESOFMANYFLAVOURS">
 		<description>
