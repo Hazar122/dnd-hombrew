@@ -39,7 +39,6 @@
 		</setters>
 	</element>	
 	
-	<!---> Food  <--->
 	<element name="Cupcakes Of Many Flavours" type="Item" source="Hazars Content" id="ID_HC_ITEM_CUPCAKESOFMANYFLAVOURS">
 		<description>
 			<p>Cupcakes that take the flavour of the users choice</p>
