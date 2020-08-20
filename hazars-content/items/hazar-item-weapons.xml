@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.0.6">
+        <update version="0.0.7">
             <file name="hazar-item-weapons.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-weapons.xml" />
         </update>
     </info>
@@ -55,4 +55,9 @@
 			<set name="proficiency">ID_HC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
 		</setters>
 	</element>
+	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="Hazars Content" id="ID_HC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
+		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+	</element>	
+	
+	
 </elements> 
