@@ -42,6 +42,28 @@
 	</element>	
 	
 	
+	<element name="citizenship papers (flayed skin scroll)" type="Item" source="Hazars Content" id="ID_HC_ITEM_CITIZENSHIP_FLAYED_SKIN">
+		<description>
+			<p>your citizenship 'papers' (flayed skin scroll)</p>
+		</description>
+		<setters>
+			<set name="category">Books</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>	
+	 
+	<element name="citizenship papers" type="Item" source="Hazars Content" id="ID_HC_ITEM_CITIZENSHIP">
+		<description>
+			<p>your citizenship 'papers'</p>
+		</description>
+		<setters>
+			<set name="category">Books</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>	
+	
 	<element name="Cupcakes Of Many Flavours" type="Item" source="Hazars Content" id="ID_HC_ITEM_CUPCAKESOFMANYFLAVOURS">
 		<description>
 			<p>Cupcakes that take the flavour of the users choice</p>

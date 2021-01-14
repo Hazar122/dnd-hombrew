@@ -23,6 +23,23 @@
 	</element>
 	
 	
+    <element name="Knife" type="Weapon" source="Hazars Content" id="ID_HC_WEAPON_KNIFE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+		<description>
+			<p>A knife has a small single-edged blade, usually used as cutlery or woodworking tool, but sometimes pressed into service as a concealable weapon.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">2</set>
+			<set name="weight" lb="0.25">1/4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="slashing">1d3</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+		</setters>
+	</element>
+	
+	
 	<element name="Cutlass" type="Weapon" source="Hazars Content" id="ID_HC_WEAPON_CUTLASS">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_ONEHANDED</supports>
 		<description>This weapon is that used by Pirates 
@@ -49,7 +66,7 @@
 		<setters>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">25</set>
-			<set name="weight" lb="3">4 lb.</set>
+			<set name="weight" lb="3">3 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">2d10</set>
 			<set name="proficiency">ID_HC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
