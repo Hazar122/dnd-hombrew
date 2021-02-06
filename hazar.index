@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Hazars Content</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="hazar.index" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazar.index" />
 		</update>
 	</info>
@@ -12,6 +12,7 @@
 		<file name="languages.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/languages.xml" />
 		<file name="spells.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/spells.xml" />
 		<file name="ancients.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/races/ancients.xml" />
+		<file name="subraceFallenTieflingAasimar.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/races/subraceFallenTieflingAasimar.xml" />
 		<file name="white-mage.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/white-mage.xml" />
 		<file name="pirate.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/classes/pirate.xml" />
 		<file name="hazar-item-gear.xml" url="https://raw.githubusercontent.com/Hazar122/dnd-homebrew/master/hazars-content/items/hazar-item-gear.xml" />
