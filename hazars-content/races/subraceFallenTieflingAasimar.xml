@@ -4,12 +4,12 @@
 		<name>Fallen Aasimar: Half-Tiefling</name>
 		<description></description>
 		<author>Hazar</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="subraceFallenTieflingAasimar.xml" url="" />
 		</update>
 	</info>
 	
-	<element name="Fallen Aasimar" type="Sub Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_SUB_RACE_FALLEN_AASIMAR">
+	<element name="Fallen Aasimar: Half-Tiefling" type="Sub Race" source="Hazar's Content" id="ID_WOTC_VGTM_SUB_RACE_FALLEN_AASIMAR">
 		<supports>Aasimar</supports>
 		<description>
 		  <p>An aasimar who was touched by dark powers as a youth or who turns to evil in early adulthood can become one of the fallen-a group of aasimar whose inner light has been replaced by shadow.</p>
